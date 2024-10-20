@@ -1,0 +1,4 @@
+# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
+name: Puppeteer Alternitive.
+url: 'https://github.com/Subzerox64/addon-base-nodejs'
+maintainer: Subzero Heart
