@@ -21,6 +21,9 @@ ENV \
     YARN_HTTP_TIMEOUT=1000000 \
     TERM="xterm-256color" 
 
+RUN apk add --no-cache bash
+
+
 RUN  ["bash", "depend.sh"]
 
 
