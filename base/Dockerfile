@@ -23,9 +23,9 @@ ENV \
 
 RUN apk add --no-cache bash
 
-COPY depend.sh 
+COPY depend.sh /depend.sh
 
-RUN  bash depend.sh
+RUN  bash /depend.sh
 
 # Copy root filesystem
 COPY rootfs /
