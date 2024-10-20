@@ -22,7 +22,7 @@ ENV \
     TERM="xterm-256color" 
 
 # Set shell
-SHELL ["/bin/ash", "-o", "pipefail", "-c"]
+SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Install base system
 ARG BUILD_ARCH=amd64
