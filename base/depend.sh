@@ -1,5 +1,4 @@
 #!/bin/bash
-set -eo pipefail
 
 # Update APK repository
 apk update
